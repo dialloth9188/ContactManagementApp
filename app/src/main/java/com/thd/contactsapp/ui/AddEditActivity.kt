@@ -2,7 +2,6 @@ package com.thd.contactsapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.thd.contactsapp.R
 import android.content.Intent
 import android.graphics.Color
 import android.net.Uri
@@ -23,6 +22,8 @@ import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.isEmpty
 import androidx.core.view.isNotEmpty
 import com.google.android.material.textfield.TextInputLayout
+import com.medkissi.contactmanagergroupe1.R
+import com.medkissi.contactmanagergroupe1.databinding.ActivityAddEditBinding
 import com.thd.contactsapp.data.model.Contact
 import de.hdodenhof.circleimageview.CircleImageView
 
