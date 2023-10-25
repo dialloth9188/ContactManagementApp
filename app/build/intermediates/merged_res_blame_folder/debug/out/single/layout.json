@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.thd.contactsapp-mergeDebugResources-39:/layout/item_resultat.xml",
+        "source": "com.thd.contactsapp-main-42:/layout/item_resultat.xml"
+    },
+    {
+        "merged": "com.thd.contactsapp-mergeDebugResources-39:/layout/item_list.xml",
+        "source": "com.thd.contactsapp-main-42:/layout/item_list.xml"
+    },
+    {
+        "merged": "com.thd.contactsapp-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "com.thd.contactsapp-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.thd.contactsapp-mergeDebugResources-39:/layout/activity_detail.xml",
+        "source": "com.thd.contactsapp-main-42:/layout/activity_detail.xml"
+    },
+    {
+        "merged": "com.thd.contactsapp-mergeDebugResources-39:/layout/activity_research.xml",
+        "source": "com.thd.contactsapp-main-42:/layout/activity_research.xml"
+    },
+    {
+        "merged": "com.thd.contactsapp-mergeDebugResources-39:/layout/activity_add_edit.xml",
+        "source": "com.thd.contactsapp-main-42:/layout/activity_add_edit.xml"
+    }
+]

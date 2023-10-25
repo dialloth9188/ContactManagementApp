@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.ContactsApp" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+        <item name="colorPrimaryDark">@color/blue_sky</item>
+        <item name="colorPrimary">@color/blue_sky_dark</item>
+        <item name="colorAccent">@color/blue_sky_accent</item>
+
+        
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        
+        
+
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>

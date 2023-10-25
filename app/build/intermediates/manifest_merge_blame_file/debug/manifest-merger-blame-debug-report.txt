@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.thd.contactsapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature android:name="android.hardware.camera.any" />
+11-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:5:5-64
+11-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:5:19-61
+12    <uses-feature android:name="android.hardware.camera" />
+12-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:6:5-60
+12-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:6:19-57
+13
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:8:5-80
+14-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:8:22-77
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.CAMERA" />
+16-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:10:5-65
+16-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:10:22-62
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:11:5-67
+17-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:11:22-64
+18
+19    <permission
+19-->[androidx.core:core:1.9.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+20        android:name="com.thd.contactsapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+20-->[androidx.core:core:1.9.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+21        android:protectionLevel="signature" />
+21-->[androidx.core:core:1.9.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+22
+23    <uses-permission android:name="com.thd.contactsapp.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+23-->[androidx.core:core:1.9.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+23-->[androidx.core:core:1.9.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+24
+25    <application
+25-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:13:5-42:19
+26        android:name="com.thd.contactsapp.ContactApp"
+26-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:14:9-35
+27        android:allowBackup="true"
+27-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:15:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.9.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\256c6597bc3e6f8192abd6f9b27a26ab\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:16:9-65
+30        android:debuggable="true"
+31        android:extractNativeLibs="false"
+32        android:fullBackupContent="@xml/backup_rules"
+32-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:17:9-54
+33        android:icon="@mipmap/ic_launcher"
+33-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:18:9-43
+34        android:label="ODC Contacts"
+34-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:19:9-37
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:20:9-54
+36        android:supportsRtl="true"
+36-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:21:9-35
+37        android:testOnly="true"
+38        android:theme="@style/Theme.ContactsApp" >
+38-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:22:9-49
+39        <activity
+39-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:24:9-26:40
+40            android:name="com.thd.contactsapp.ui.Research"
+40-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:25:13-40
+41            android:exported="false" />
+41-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:26:13-37
+42        <activity
+42-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:27:9-29:40
+43            android:name="com.thd.contactsapp.ui.DetailActivity"
+43-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:28:13-46
+44            android:exported="false" />
+44-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:29:13-37
+45        <activity
+45-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:30:9-32:40
+46            android:name="com.thd.contactsapp.ui.AddEditActivity"
+46-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:31:13-47
+47            android:exported="false" />
+47-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:32:13-37
+48        <activity
+48-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:33:9-41:20
+49            android:name="com.thd.contactsapp.ui.MainActivity"
+49-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:34:13-44
+50            android:exported="true" >
+50-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:35:13-36
+51            <intent-filter>
+51-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:36:13-40:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:37:17-69
+52-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:37:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:39:17-77
+54-->C:\Users\THD HAMANANKE JALLOH\AndroidStudioProjects\ContactManagementApp\app\src\main\AndroidManifest.xml:39:27-74
+55            </intent-filter>
+56        </activity>
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+60            android:authorities="com.thd.contactsapp.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\ed5c533cc70e7b3b025c1d493dfcade0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\8496ad6fc3106366db9a7578fe6073d8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\8496ad6fc3106366db9a7578fe6073d8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\8496ad6fc3106366db9a7578fe6073d8\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+70                android:value="androidx.startup" />
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+71        </provider>
+72
+73        <service
+73-->[androidx.room:room-runtime:2.5.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\b02d668ea3ece423490db17afdc82233\transformed\room-runtime-2.5.0\AndroidManifest.xml:24:9-28:63
+74            android:name="androidx.room.MultiInstanceInvalidationService"
+74-->[androidx.room:room-runtime:2.5.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\b02d668ea3ece423490db17afdc82233\transformed\room-runtime-2.5.0\AndroidManifest.xml:25:13-74
+75            android:directBootAware="true"
+75-->[androidx.room:room-runtime:2.5.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\b02d668ea3ece423490db17afdc82233\transformed\room-runtime-2.5.0\AndroidManifest.xml:26:13-43
+76            android:exported="false" />
+76-->[androidx.room:room-runtime:2.5.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\b02d668ea3ece423490db17afdc82233\transformed\room-runtime-2.5.0\AndroidManifest.xml:27:13-37
+77
+78        <receiver
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+79            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+79-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+80            android:directBootAware="false"
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+81            android:enabled="true"
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+82            android:exported="true"
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+83            android:permission="android.permission.DUMP" >
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+85                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+86            </intent-filter>
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+88                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+91                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+94                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\THD HAMANANKE JALLOH\.gradle\caches\transforms-3\05f257b4cf3b93f36e6420d3f112121a\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+95            </intent-filter>
+96        </receiver>
+97    </application>
+98
+99</manifest>
