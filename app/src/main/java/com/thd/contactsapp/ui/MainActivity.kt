@@ -2,22 +2,18 @@ package com.thd.contactsapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.thd.contactsapp.R
-import ContactViewModel
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.content.pm.PackageManager
-import android.view.View
 import android.widget.ImageView
-import android.widget.PopupMenu
 import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
-import androidx.lifecycle.LiveData
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import com.thd.contactsapp.R
 import com.thd.contactsapp.adapters.ContactAdapter
 import com.thd.contactsapp.adapters.OnContactClickListner
 import com.thd.contactsapp.data.model.Contact

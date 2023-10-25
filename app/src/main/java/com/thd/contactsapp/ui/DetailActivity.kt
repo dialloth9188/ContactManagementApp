@@ -2,8 +2,6 @@ package com.thd.contactsapp.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.thd.contactsapp.R
-import ContactViewModel
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.net.Uri
@@ -12,6 +10,7 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AlertDialog
+import com.thd.contactsapp.R
 import com.thd.contactsapp.data.model.Contact
 import com.thd.contactsapp.viewmodels.ContactViewModel
 import de.hdodenhof.circleimageview.CircleImageView

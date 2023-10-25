@@ -4,7 +4,6 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.medkissi.contactmanagergroupe1.data.model.Contact
 import com.thd.contactsapp.data.model.Contact
 
 @Database(entities = [Contact::class], version = 2)

@@ -3,8 +3,6 @@ package com.thd.contactsapp.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.thd.contactsapp.R
-import ContactViewModel
-import SearchAdapter
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.text.Editable

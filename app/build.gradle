@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace 'com.medkissi.contactmanagergroupe1'
+    namespace 'com.thd.contactsapp'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.medkissi.contactmanagergroupe1"
+        applicationId "com.thd.contactsapp"
         minSdk 24
         targetSdk 33
         versionCode 1

@@ -1,32 +1,23 @@
 package com.thd.contactsapp.ui
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.content.Intent
-import android.graphics.Color
 import android.net.Uri
+import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Patterns
-import android.util.TypedValue
-import android.view.Gravity
-import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
-import android.widget.LinearLayout
-import android.widget.TextView
 import androidx.activity.result.PickVisualMediaRequest
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.appcompat.app.AlertDialog
-import androidx.constraintlayout.widget.ConstraintLayout
-import androidx.core.view.isEmpty
-import androidx.core.view.isNotEmpty
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.textfield.TextInputLayout
-import com.medkissi.contactmanagergroupe1.R
-import com.medkissi.contactmanagergroupe1.databinding.ActivityAddEditBinding
+import com.thd.contactsapp.R
 import com.thd.contactsapp.data.model.Contact
+import com.thd.contactsapp.databinding.ActivityAddEditBinding
+import com.thd.contactsapp.databinding.ActivityAddEditBinding.*
 import de.hdodenhof.circleimageview.CircleImageView
-
 class AddEditActivity : AppCompatActivity() {
     private  lateinit var  binding: ActivityAddEditBinding
     lateinit var nom: TextInputLayout
@@ -42,7 +33,7 @@ class AddEditActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        binding = ActivityAddEditBinding.inflate(layoutInflater)
+        binding = inflate(layoutInflater)
         setContentView(binding.root)
         /*    gestion des champs    */
         nomFocusListener()
@@ -61,6 +52,7 @@ class AddEditActivity : AppCompatActivity() {
 
         val btnEnregister = findViewById<Button>(R.id.btn_save)
         btnEnregister.setOnClickListener {
+            var isValide = true
             if (intent.hasExtra(CONTACT_TO_UPDATE)) {
                 updateContact()
             } else {
@@ -94,13 +86,13 @@ class AddEditActivity : AppCompatActivity() {
         var isvalid = true
 
         if (validatenom != null) {
-            message = "Name must have at least 3 characters."
+            message = "Name must have at least 2 characters."
             nom.requestFocus()
             isvalid = false
         }
 
         if (validtelephone != null) {
-            message = "Phone number can't exceed 15 characters"
+            message = "Phone number can't exceed 14 characters"
             tel.requestFocus()
             isvalid = false
         }
@@ -160,10 +152,21 @@ class AddEditActivity : AppCompatActivity() {
                 telephone =  tel.editText?.text.toString(),
                 image = url?.toString() ?:data.image
             )
-            val intent = Intent(this, DetailActivity::class.java)
-            intent.putExtra(UPDATED_CONTACT,contact)
-            setResult(RESULT_OK, intent)
-            finish()
+            // Contrôle de validation des champs
+            val nomError = validatenom()
+            val emailError = validEmail()
+            val telephoneError = validtelephone()
+
+            if (nomError == null && emailError == null && telephoneError == null) {
+
+                val intent = Intent(this, DetailActivity::class.java)
+                intent.putExtra(UPDATED_CONTACT, contact)
+                setResult(RESULT_OK, intent)
+                finish()
+            } else {
+                // Les champs ne sont pas valides, on affiche les erreurs à l'utilisateur
+                enregistrerContact()
+            }
         }
     }
 
